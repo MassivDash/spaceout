@@ -101,7 +101,7 @@
             padding-top: 10vw
         }
 
-        @media screen and (max-width:986px) {
+        @media screen and (min-width:600px) and (max-width:986px) {
             header {
                 background-image: url(assets/images/spaceparralax.jpg);
                 background-attachment: scroll;
@@ -112,6 +112,22 @@
                 width: 100%;
                 
             }
+        }
+
+        @media screen and (max-width:599px) {
+            header {
+                background-image: url(assets/images/spaceparralax.jpg);
+                background-attachment: scroll;
+                height: 170vw;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                
+            }
+        }
+        @media screen and (max-width:986px) {
+           
             .logoimg {
                 margin-top: .5vw;
                 margin-left: 40vw
@@ -317,10 +333,39 @@ height: 50vw;
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNG9M8N" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="container">
+            <div class="float-nav">
+                    <a href="#" class="menu-btn">
+                        <ul>
+                            <li class="line"></li>
+                            <li class="line"></li>
+                            <li class="line"></li>
+                        </ul>
+                        <div class="menu-txt">menu</div>
+                    </a>
+                </div>
+                <div class="main-nav">
+                    <ul>
+                        <li>
+                            <a href="#website">webdesign</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#oferta">ofreta+</a>
+                        </li>
+                        <li>
+                            <a href="#blog">blog</a>
+                        </li>
+                        <li>
+                            <a href="#kontakt">kontakt</a>
+                        </li>
+                    </ul>
+                </div>
         <header>
             <div class="flexrow_title">
                 <div class="col-2" style="z-index: 2">
-                    <img class="logoimg" src="/assets/images/logo.png" alt="SpaceOut Projektowanie Stron Internetowych">
+                    <img class="logoimg" src="./assets/images/logo.png" alt="SpaceOut Projektowanie Stron Internetowych">
                 </div>
                 <div class="col-10" style="z-index: 1">
                     <div class="spaceout">spaceout</div>
@@ -865,35 +910,7 @@ height: 50vw;
             </li>
         </ul>
     </div>
-    <div class="float-nav">
-        <a href="#" class="menu-btn">
-            <ul>
-                <li class="line"></li>
-                <li class="line"></li>
-                <li class="line"></li>
-            </ul>
-            <div class="menu-txt">menu</div>
-        </a>
-    </div>
-    <div class="main-nav">
-        <ul>
-            <li>
-                <a href="#website">webdesign</a>
-            </li>
-            <li>
-                <a href="#portfolio">portfolio</a>
-            </li>
-            <li>
-                <a href="#oferta">ofreta+</a>
-            </li>
-            <li>
-                <a href="#blog">blog</a>
-            </li>
-            <li>
-                <a href="#kontakt">kontakt</a>
-            </li>
-        </ul>
-    </div>
+   
     <div class="fb-customerchat"
  page_id="838253326277994"
  minimized="true">

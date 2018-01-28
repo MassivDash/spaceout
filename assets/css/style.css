@@ -327,7 +327,7 @@ h3 {
 
 p {
     font-size: 1.125rem;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1.8
 }
 
@@ -548,8 +548,7 @@ p {
 
 @media screen and (max-width:986px) {
     .float-nav, .main-nav {
-        bottom: 60px;
-right: 11vw;
+      right: 5vw;
     }
 
     .float-nav2, .main-nav2 {
@@ -558,18 +557,17 @@ right: 11vw;
 
     .float-nav {
         position: fixed;
-        z-index: 20;
+        z-index: 200000;
     }
 
         .float-nav > a.menu-btn {
             text-decoration: none;
             display: block;
-            background-color: #10121f;
+            background-color: #10121f75;
             color: #fff;
             padding: 17px 19px 12px;
             text-align: center;
-            box-shadow: 2px 2px 2px rgba(20, 17, 17, 0.733);
-            border-radius: 300px;
+            
         }
 
             .float-nav > a.menu-btn.active {
@@ -633,7 +631,8 @@ right: 11vw;
             display: block;
             opacity: 1;
             transition: opacity 250ms;
-            position: fixed
+            position: fixed;
+            z-index: 190000;
         }
 
         .main-nav > ul {

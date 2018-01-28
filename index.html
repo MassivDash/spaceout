@@ -222,6 +222,13 @@ height: 50vw;
         }
 
         @media screen and (min-width:986px) {
+            .titleCta h1 {
+                color: whitesmoke;
+                text-align: left;
+                margin-top: -6vw;
+                margin-left: 16vw;
+                font-size: 26px;
+            }
             .contact p {
                 font-size: 3vw;
                 color: #f5f5f5;
@@ -246,6 +253,9 @@ height: 50vw;
         }
 
         @media screen and (max-width:986px) {
+            div.flexrow_title:nth-child(2) > div:nth-child(2) {
+                display: none;
+            }
             .social {
                 left: 5vw;
                 margin-top: 0;
@@ -271,7 +281,8 @@ height: 50vw;
             }
             .navigation {
                 font-size: 1.2vw;
-                color: #000
+                color: #000;
+                position: absolute;
             }
             .navigation ul {
                 list-style: none;
@@ -333,35 +344,7 @@ height: 50vw;
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNG9M8N" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="container">
-            <div class="float-nav">
-                    <a href="#" class="menu-btn">
-                        <ul>
-                            <li class="line"></li>
-                            <li class="line"></li>
-                            <li class="line"></li>
-                        </ul>
-                        <div class="menu-txt">menu</div>
-                    </a>
-                </div>
-                <div class="main-nav">
-                    <ul>
-                        <li>
-                            <a href="#website">webdesign</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio">portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#oferta">ofreta+</a>
-                        </li>
-                        <li>
-                            <a href="#blog">blog</a>
-                        </li>
-                        <li>
-                            <a href="#kontakt">kontakt</a>
-                        </li>
-                    </ul>
-                </div>
+            
         <header>
             <div class="flexrow_title">
                 <div class="col-2" style="z-index: 2">
@@ -372,7 +355,7 @@ height: 50vw;
                 </div>
             </div>
             <div class="flexrow_title">
-                <div class="col-12">
+                <div class="col-6">
                     <div class="social">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
                             <a class="sociallink" href="https://github.com/MassivDash" target="_blank">
@@ -393,6 +376,17 @@ height: 50vw;
                             </svg>
                         </a>
                     </div>
+                </div>
+                <div class="col-6">
+                    <div class="titleCta">
+                        <h1>
+                                <span
+                                   class="txt-rotate"
+                                   data-period="3000"
+                                   data-rotate='[ "fly me to the moon", "let me play among the stars", "let me see what life ", "looks like on jupiter and mars" ]'></span>
+                              </h1>
+                              
+                            </div>
                 </div>
             </div>
             <div class="flexrow_menu">
@@ -910,6 +904,7 @@ height: 50vw;
             </li>
         </ul>
     </div>
+    
    
     <div class="fb-customerchat"
  page_id="838253326277994"

@@ -548,6 +548,7 @@ p {
 
 @media screen and (max-width:986px) {
     .float-nav, .main-nav {
+        top:0;
       right: 5vw;
     }
 

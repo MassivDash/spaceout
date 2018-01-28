@@ -26,7 +26,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
     <link rel="manifest" href="fav/manifest.json">
     <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#4a0072" />
+    <meta name="theme-color" content="#10121f" />
 
     <script type="application/ld+json">
         {
@@ -89,7 +89,11 @@
             align-items: center
         }
 
-      
+        .menuicon {
+            height: 50px;
+            width: auto;
+            filter: invert(100%);
+        }
 
         .flexrow_title {
             justify-content: flex-start;
@@ -101,11 +105,12 @@
             header {
                 background-image: url(assets/images/spaceparralax.jpg);
                 background-attachment: scroll;
-                height: 150vw;
+                height: 153vw;
                 background-position: top;
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 100%
+                width: 100%;
+                
             }
             .logoimg {
                 margin-top: .5vw;
@@ -131,13 +136,14 @@
         @media screen and (min-width:986px) {
             header {
                 background-image: url('assets/images/spaceparralax.jpg'), linear-gradient(179deg, rgba(0,0,0,0.05) 37%, rgba(0, 0, 0, 0.33) 56%, rgba(0, 0, 0, 0.69) 63%, rgba(0,0,0,1) 100%);
-height: 100%;
+
 background-attachment: fixed;
 background-position: left;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
 background-blend-mode: darken;
+height: 50vw;
             }
             .spaceoutkontakt {
                 font-size: 3vw;
@@ -267,10 +273,14 @@ background-blend-mode: darken;
                 padding: .2em 2.45em;
                 margin-right: 5px;
                 float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .navigation a {
                 color: #fff;
-                text-decoration: none
+                text-decoration: none;
+                padding-left: 10px;
             }
             .nav {
                 cursor: pointer;
@@ -344,18 +354,23 @@ background-blend-mode: darken;
                 <div class="navigation">
                     <ul>
                         <li class="nav">
+                            <img class="menuicon" src="./assets/images/browser-6.svg">
                             <a href="#website">webdesign</a>
                         </li>
                         <li class="nav">
+                                <img class="menuicon" src="./assets/images/layer.svg">
                             <a href="#portfolio">portfolio</a>
                         </li>
                         <li class="nav">
+                                <img class="menuicon" src="./assets/images/server.svg">
                             <a href="#oferta">oferta+</a>
                         </li>
                         <li class="nav">
+                                <img class="menuicon" src="./assets/images/browser-5.svg">
                             <a href="#blog">blog</a>
                         </li>
                         <li class="nav">
+                                <img class="menuicon" src="./assets/images/email.svg">
                             <a href="#kontakt">kontakt</a>
                         </li>
                     </ul>

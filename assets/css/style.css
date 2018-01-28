@@ -94,7 +94,7 @@ section:hover {
 .notka .notkatext {
     visibility: hidden;
     width: 30vw;
-    background-color: #4a0072;
+    background-color: #10121f;
     border-radius: 5px;
     padding: 1rem;
     position: absolute;
@@ -126,7 +126,7 @@ section:hover {
         .notka .notkatext {
             visibility: hidden;
             width: 90%;
-            background-color: #4a0072;
+            background-color: #10121f;
             color: #fff;
             text-align: center;
             border-radius: 5px;
@@ -231,7 +231,7 @@ section:hover {
         }
 
             .tags li:hover {
-                background: #4a0072
+                background: #10121f
             }
 
     a .blogbtn {
@@ -253,7 +253,7 @@ section:hover {
             transform: translate3D(0,-1px,0);
             z-index: 1;
             color: #f5f5f5;
-            background: #4a0072
+            background: #10121f
         }
 }
 
@@ -289,7 +289,7 @@ section:hover {
         }
 
             .tags li:hover {
-                background: #4a0072
+                background: #10121f
             }
 
     a .blogbtn {
@@ -311,7 +311,7 @@ section:hover {
             transform: translate3D(0,-1px,0);
             z-index: 1;
             color: #f5f5f5;
-            background: #4a0072
+            background: #10121f
         }
 }
 
@@ -427,7 +427,8 @@ p {
     }
 
     .float-nav, .float-nav2, .main-nav {
-        display: none
+        display: block;
+        opacity:0;
     }
 
     .float-nav2 {
@@ -441,7 +442,8 @@ p {
         .float-nav2.active > a.menu-btn {
             text-decoration: none;
             display: block;
-            background-color: #240a32;
+            opacity: 1;
+            background-color: #10121f;
             color: #fff;
             padding: 17px 19px 12px;
             text-align: center;
@@ -522,7 +524,7 @@ p {
             list-style: none;
             margin: 0;
             padding: 0;
-            background-color: #240a32;
+            background-color: #10121f;
             box-shadow: 2px 2px 8px #777;
             border-radius: 3px 3px 33.5px
         }
@@ -547,33 +549,33 @@ p {
 @media screen and (max-width:986px) {
     .float-nav, .main-nav {
         bottom: 20px;
-        right: 20px
+        right: 44px;
     }
 
     .float-nav2, .main-nav2 {
-        display: none
+        display: none;
     }
 
     .float-nav {
         position: fixed;
-        z-index: 20
+        z-index: 20;
     }
 
         .float-nav > a.menu-btn {
             text-decoration: none;
             display: block;
-            background-color: #240a32;
+            background-color: #10121f;
             color: #fff;
             padding: 17px 19px 12px;
             text-align: center;
             box-shadow: 2px 2px 8px #777;
-            border-radius: 300px
+            border-radius: 300px;
         }
 
             .float-nav > a.menu-btn.active {
                 transition: background-color 250ms linear;
                 background-color: transparent;
-                box-shadow: none
+                box-shadow: none;
             }
 
                 .float-nav > a.menu-btn.active > ul > li.line:nth-child(1) {
@@ -585,7 +587,7 @@ p {
                 }
 
                 .float-nav > a.menu-btn.active > ul > li.line:nth-child(2) {
-                    visibility: hidden
+                    visibility: hidden;
                 }
 
                 .float-nav > a.menu-btn.active > ul > li.line:nth-child(3) {
@@ -640,7 +642,7 @@ p {
             list-style: none;
             margin: 0;
             padding: 0;
-            background-color: #240a32;
+            background-color: #10121f;
             box-shadow: 2px 2px 8px #777;
             border-radius: 3px 3px 33.5px
         }
@@ -748,7 +750,7 @@ p {
 
     .modal-header {
         background-color: #FFF;
-        color: #240a32
+        color: #10121f
     }
 
     .modal-footer {

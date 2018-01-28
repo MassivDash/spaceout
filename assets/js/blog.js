@@ -1,6 +1,6 @@
 ghost.init({
 clientId: "ghost-frontend",
-clientSecret: "cb59fe0070a4"
+clientSecret: "55cda42b54a4"
 });
 
 function onSuccess(data) {

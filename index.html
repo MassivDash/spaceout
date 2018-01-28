@@ -1,501 +1,915 @@
 ﻿<!DOCTYPE html>
-  <html lang="pl-PL">
-  <head>
-  <title>SpaceOut - Projektowanie Aplikacji Mobilnych</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Keywords" content="Projektowanie stron internetowych">
-  <meta name="Description" content="SpaceOut profesjonlane strony i aplikacje internetowe, grafika, ui, ux">
-  <meta name="twitter:site" content="@spaceoutPl">
-  <meta name="twitter:creator" content="@spaceoutPl">
+<html lang="pl-PL">
+
+<head>
+    <title>SpaceOut - Projektowanie Aplikacji Mobilnych</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Projektowanie stron internetowych">
+    <meta name="Description" content="SpaceOut profesjonlane strony i aplikacje internetowe, grafika, ui, ux">
+    <meta name="twitter:site" content="@spaceoutPl">
+    <meta name="twitter:creator" content="@spaceoutPl">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SpaceOut.pl">
     <meta name="twitter:description" content="Projektowanie stron i aplikacji internetowych">
     <meta name="twitter:image" content="https://spaceout.pl/assets/images/cover.jpg">
-  <meta property="og:url" content="https://spaceout.pl">
-  <meta property="og:title" content="SpaceOut">
-  <meta property="og:description" content="Projektowanie stron i aplikacji internetowych">
-  <meta property="og:image" content="Projektowanie stron i aplikacji internetowych">
-  <meta property="og:image:secure_url" content="https://spaceout.pl/assets/images/cover.jpg">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
-<link rel="manifest" href="fav/manifest.json">
-<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#4a0072" />
+    <meta property="og:url" content="https://spaceout.pl">
+    <meta property="og:title" content="SpaceOut">
+    <meta property="og:description" content="Projektowanie stron i aplikacji internetowych">
+    <meta property="og:image" content="Projektowanie stron i aplikacji internetowych">
+    <meta property="og:image:secure_url" content="https://spaceout.pl/assets/images/cover.jpg">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/manifest.json">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#4a0072" />
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "spaceout.pl",
-  "url": "https://spaceout.pl",
-  "logo": "https://blog.spaceout.pl/content/images/2017/11/logo1.png",
-  "sameAs": [
-    "https://www.facebook.com/spaceoutpl/",
-    "https://www.instagram.com/spaceout.pl/",
-    "https://twitter.com/SpaceoutPl",
-    "https://plus.google.com/u/1/+StartupwiseEu?hl=en-GB",
-    "https://github.com/MassivDash"
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "spaceout.pl",
+            "url": "https://spaceout.pl",
+            "logo": "https://spaceout.pl/logo1.png",
+            "sameAs": [
+                "https://www.facebook.com/spaceoutpl/",
+                "https://www.instagram.com/spaceout.pl/",
+                "https://twitter.com/SpaceoutPl",
+                "https://plus.google.com/u/1/+StartupwiseEu?hl=en-GB",
+                "https://github.com/MassivDash"
+            ]
+        }
+    </script>
 
-<style>body,html{font-size:100%;font-family:'Open Sans',sans-serif;background-color:#f4f8fb;width:100%;margin:0;overflow-x:hidden;overflow-y:unset;}img{max-width:100%;height:auto}.container:after{content:"";display:table;clear:both}.flexrow,.flexrow_menu,.flexrow_title{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex}.flexrow{justify-content:center;align-items:center}.flexrow_menu{justify-content:center;align-items:center;background-color:rgba(21,36,47,.74)}.flexrow_title{justify-content:flex-start;align-items:center;padding-top:10vw}@media screen and (max-width:986px){header{background-image:url(assets/images/spaceparralax.jpg);background-attachment:scroll;height:150vw;background-position:top;background-repeat:no-repeat;background-size:cover;width:100%}.logoimg{margin-top:.5vw;margin-left:40vw}.spaceout{display:block;font-size:13vw;font-family:"Paytone One";color:#fff;line-height:.068;z-index:1;margin-top:30px;margin-left:-126vw;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3)}}@media screen and (min-width:986px){header{background-image:url(assets/images/spaceparralax.jpg);height:100%;background-attachment:fixed;background-position:left;background-repeat:no-repeat;background-size:cover;width:100%}.spaceoutkontakt{font-size:3vw;font-family:"Paytone One";color:#240a32;line-height:.068;z-index:1;margin-left:8.5vw;padding-bottom:0;padding-top:59px;text-align:left;}}@media screen and (max-width:986px){.spaceoutkontakt{font-size:6vw;font-family:"Paytone One";color:#240a32;line-height:1;z-index:1;margin:auto}.contact p{font-size:7vw;color:#f5f5f5;line-height:1}}#oferta{background-size:344px;padding-bottom:12vw;background-position:right}.contact{margin:auto}.spaceoutkontakt a{text-decoration:none;color:#240a32;-webkit-transition:1s;transition:1s}.spaceoutkontakt a:hover{filter:blur(5px)}@media screen and (min-width:986px){.contact p{font-size:3vw;color:#f5f5f5;line-height:1}.spaceout{font-size:13vw;font-family:"Paytone One";color:#fff;line-height:.068;z-index:1}.logoimg{margin-top:-1rem;margin-left:11vw}.social{margin-left:13vw;margin-top:-3vw;padding-bottom:20vw}}@media screen and (max-width:986px){.social{left:5vw;margin-top:0;padding-bottom:0;position:relative;bottom:2vw}.logoimg{margin-top:-1rem;margin-left:11rem}.nav,.navigation{display:none}}@media screen and (min-width:986px){.nav,.nav:hover{border-top-right-radius:5px;border-top-left-radius:5px}.navigation{font-size:1.5vw;color:#000}.navigation ul{list-style:none;padding:0;width:100%;justify-content:center;align-content:center;margin:0;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex}.navigation li{padding:.2em 3.45em;margin-right:5px}.navigation a{color:#fff;text-decoration:none}.nav{cursor:pointer;-webkit-transition:1s;transition:1s;background-color:transparent}.nav:hover{background:rgba(61,66,70,.42);color:#fff}}
-</style>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NNG9M8N');</script>
+    <style>
+        body,
+        html {
+            font-size: 100%;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f8fb;
+            width: 100%;
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: unset;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        .container:after {
+            content: "";
+            display: table;
+            clear: both
+        }
+
+        .flexrow,
+        .flexrow_menu,
+        .flexrow_title {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex
+        }
+
+        .flexrow_menu {
+        justify-content: left;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+
+        .flexrow {
+            justify-content: center;
+            align-items: center
+        }
+
+      
+
+        .flexrow_title {
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 10vw
+        }
+
+        @media screen and (max-width:986px) {
+            header {
+                background-image: url(assets/images/spaceparralax.jpg);
+                background-attachment: scroll;
+                height: 150vw;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%
+            }
+            .logoimg {
+                margin-top: .5vw;
+                margin-left: 40vw
+            }
+            .spaceout {
+                display: block;
+                font-size: 13vw;
+                font-family: "Paytone One";
+                color: #fff;
+                line-height: .068;
+                z-index: 1;
+                margin-top: 30px;
+                margin-left: -126vw;
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)
+            }
+        }
+
+        @media screen and (min-width:986px) {
+            header {
+                background-image: url('assets/images/spaceparralax.jpg'), linear-gradient(179deg, rgba(0,0,0,0.05) 37%, rgba(0, 0, 0, 0.33) 56%, rgba(0, 0, 0, 0.69) 63%, rgba(0,0,0,1) 100%);
+height: 100%;
+background-attachment: fixed;
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+background-blend-mode: darken;
+            }
+            .spaceoutkontakt {
+                font-size: 3vw;
+                font-family: "Paytone One";
+                color: #10121f;
+                line-height: .068;
+                z-index: 1;
+                margin-left: 8.5vw;
+                padding-bottom: 0;
+                padding-top: 59px;
+                text-align: left;
+            }
+        }
+
+        @media screen and (max-width:986px) {
+            #fb-root > div.fb_dialog.fb_dialog_mobile.fb_shrink_active {
+                top:82% important;
+            }
+            
+  
+  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
+    top:82% important;
+  }
+
+
+            .spaceoutkontakt {
+                font-size: 6vw;
+                font-family: "Paytone One";
+                color: #10121f;
+                line-height: 1;
+                z-index: 1;
+                margin: auto
+            }
+            .contact p {
+                font-size: 7vw;
+                color: #f5f5f5;
+                line-height: 1
+            }
+        }
+
+        #oferta {
+            background-size: 344px;
+            padding-bottom: 12vw;
+            background-position: right
+        }
+
+        .contact {
+            margin: auto
+        }
+
+        .spaceoutkontakt a {
+            text-decoration: none;
+            color: #10121f;
+            -webkit-transition: 1s;
+            transition: 1s
+        }
+
+        .spaceoutkontakt a:hover {
+            filter: blur(5px)
+        }
+
+        @media screen and (min-width:986px) {
+            .contact p {
+                font-size: 3vw;
+                color: #f5f5f5;
+                line-height: 1
+            }
+            .spaceout {
+                font-size: 13vw;
+                font-family: "Paytone One";
+                color: #fff;
+                line-height: .068;
+                z-index: 1
+            }
+            .logoimg {
+                margin-top: -1rem;
+                margin-left: 11vw
+            }
+            .social {
+                margin-left: 13vw;
+                margin-top: -3vw;
+                padding-bottom: 20vw
+            }
+        }
+
+        @media screen and (max-width:986px) {
+            .social {
+                left: 5vw;
+                margin-top: 0;
+                padding-bottom: 0;
+                position: relative;
+                bottom: 2vw
+            }
+            .logoimg {
+                margin-top: -1rem;
+                margin-left: 11rem
+            }
+            .nav,
+            .navigation {
+                display: none
+            }
+        }
+
+        @media screen and (min-width:986px) {
+            .nav,
+            .nav:hover {
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px
+            }
+            .navigation {
+                font-size: 1.2vw;
+                color: #000
+            }
+            .navigation ul {
+                list-style: none;
+                padding: 0;
+                width: 100%;
+                justify-content: left;
+                align-content: center;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex
+            }
+            .navigation li {
+                padding: .2em 2.45em;
+                margin-right: 5px;
+                float: left;
+            }
+            .navigation a {
+                color: #fff;
+                text-decoration: none
+            }
+            .nav {
+                cursor: pointer;
+                -webkit-transition: 1s;
+                transition: 1s;
+                background-color: transparent
+            }
+            .nav:hover {
+                background: rgba(61, 66, 70, .42);
+                color: #fff
+            }
+        }
+    </style>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NNG9M8N');
+    </script>
 </head>
+
 <body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNG9M8N"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<div class="container">
-<header>
-<div class="flexrow_title">
-<div class="col-2" style="z-index: 2">
-  <img class="logoimg" src="/assets/images/logo.png" alt="SpaceOut Projektowanie Stron Internetowych"></div>
-    <div class="col-10" style="z-index: 1"><div class="spaceout">spaceout</div></div></div>
-    <div class="flexrow_title">
-       <div class="col-12"><div class="social"><svg
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="50px" height="50px"><a class="sociallink" href="https://github.com/MassivDash" target="_blank" >
-<image  x="0px" y="0px" width="50px" height="50px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhCgsXCh/i862tAAACkElEQVRYw+1Y0XmjMAz+YQJv0IzgDeIR2KBscNmgdAJng/QmoBuEThA2SDsBbKB7CLaFMRhM+nbixZ8s6Zct25LIECUSUDhCQkIwdo8WX2jRZH3cxjJAQTXFqKYiHaCkexTA0J3K7QBqA4ADUmFrWTAGbzh5zG80+EHDOAovUDh4cme8r4gRHeg28q8jTXJWWpKmbiR/IxGDkCOVjqqoCkhQ5WnJ9RB1HIAB1atgSDCIbvtpoXKkH3KQBIvF8oLX7UQoNqT3QkxgtD+pngExgVHjKXf1yoFzpY6udFoTfCqops7EgUp3PbmQY9cDR/BjPFrx4xMMwDlYDLzad5mvw54Jtn2PB0PTdfKM3OjicSvrotmyu/PFEwLoRCnk9Cu+uhzA6zDT42wX1+8JPoCztfAK5CQw7CQ+2NP2vQ8j6/ExDAsSOZSd+cuk2iTbXMtZUzmk8T3jIpckEO1OXdba3ZA5jsOwcbKk7BZuo8MoDxmLR7eSHzb9lgQBAH/Y2FiUmD4B7CKmkLNj71oe8EZiD6kpK99sJIH+g2wE6YeRsrx2l8XGjozFPrcmX8xc1u+CcbrGYutAFBNs1lgL0id7ZI3FL55NpJmlQ/JVLK0NyTIKu9+sumBJZwtdmQVtuQIsI48KskC6jRGrtFgCflQNofQLkKBLKoSffh+se2gtABVehT9HXgsUKCRCJRFTkFTR1WsPWBRCjUWwJAoVd56aCKxpptacKe7iZSo7K6N1BCTny9RYwT27XXIBQk89WGwdZkOuZiFucx1Kx2DKrSArmqCJJ6N2Lgayup0LwNjGdAlkY2M6ic1DRbPHzqdTQos9wGhKJb2+Y37yb48loN/+gWOBnvIrKlsBJKAgcUz/qfYP9hf34mfHXkYAAAAASUVORK5CYII=" /></a>
-</svg><a class="sociallink2" href="https://www.instagram.com/spaceout.pl/" target="_blank" rel="noopener"><svg
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="51px" height="50px">
-<image  x="0px" y="0px" width="51px" height="50px"  xlink:href="data:img/png;base64,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" />
-           </svg></a>
-          <a class="sociallink3" href="https://facebook.com/spaceoutpl/" target="_blank" rel="noopener"> <svg
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="50px" height="50px">
-<image  x="0px" y="0px" width="50px" height="50px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhCgsXCB6nwv+5AAADGUlEQVRYw72Y7ZmqSBCFX3g2AEJgMyCDYSO4ZLBkcM1g3QgMwd0I9EaAEwFkoBlgBu/+oEUYEdGdmfrjQ3/UqTrddp/qiIdmQs4bGRnJoPlMQ8M7h+j8yEP0AKDgT4r+s+HiMCHrW/f8G+0fBzsNUHpUtXVraXrTn1q6tVX1aPk8QB4AKgswsXBjFdo6p5UbCxOwsApt+XKAxE0AyMHSnY6cD8F0ZwnmAWhjsgQitVZbyw+EFWPCTC3GZFnaqvUtsR8hsstAM+srYTMzLmTVZn2A2WOILbgKExexbB4CWoHbWRjTHmKr6nrxMgKudTC7nSTNxHo0KHsGouehheChntgCbtT6dYgQaApmYK1ublnV1tTV6xDB00pdBerzcddRLc1U5yDM3YVt21kxQZpqZqkehx2lWoUk1zMQZXBdWVndG+06EF/p4LDxqOaWXedMFtq6Gn1PhmStluaDXCxCHscbFsdTd6PI5kCCe6ueUHdqcaFsBqSPy3KOLrhQZaHuABO1vUDNQKTXIOYWfsDODmzVpPvcXqAerMgVZDZnuLh3qxYxb8A7ObCfgxjchACJufns/2kP5LwDbx17qZs5ssJxOUXX6u6cUt10JP9GBtHJDGjuRpXQ3e9/h+9/SIGUdCQtxnYAsugkZFy37wxZ66nN7Xq8pW/6u21caxxaUk68YqfZvhQ4Q7xoOEB1XYHuUuavpQHELLEm/P7o8w5uosOS6VeQ9P6gaB9F/DFqOkRRFEW/z/ruPcZ0e+c0B/KideucQMyZDDjBQynzlJl2Xsk4xzRgSgPkn5pHBjSmQBMH993f/zPtB5fjqomD+wMM1PtnWA4cwsm4+Kh/6hQeH/VxdGZPYsEv4Oen5fET+GVBwj46s/T6fSaTiet3mZB4CuRWSCyTREGrdGJoFuSOJFoi7kxGom5zF+KeuPsgU1e8bKH4mJapA8GdgemiouwexPaO4B6WDmD7culwLT7qyUC/oQj6EMtXlXMDmK8sTANp3cByUYnd9T9XYsO3PBb0LB+vZH3Bs0cP9GkPON/yFPUApFuj//uo9h8cmcDWwh0M/AAAAABJRU5ErkJggg==" />
-              </svg></a> </div>
-          </div></div>
-                  <div class="flexrow_menu">
-             <div class="navigation">
-             <ul>
-                               <li class="nav"><a href="#website" >webdesign</a></li>
-              <li class="nav"><a  href="#portfolio">portfolio</a></li>
-              <li class="nav"><a href="#oferta">oferta+</a></li>
-              <li class="nav"><a href="#blog" >blog</a></li>
-              <li class="nav"><a href="#kontakt">kontakt</a></li>
-                 </ul></div>
-              </div>
-  </header>
-  <div class="break"></div>
-   <section>
-       <div class="row">
-           <div class="col-6">
-               <h2>Witam wszytskich.<br>
-Zajmuje się projektowaniem <br>stron www
-                   oraz aplikacji mobilnych.</h2>
-
-<p>
-    Buduje strony internetowe już od 15 lat, zajmuje się także administracją i konfiguracją serwerów. <br>
-Projektuje strony od podstaw łacznie z tworzeniem logotypów, grafik, bannerow, <strong>przekładam projekty PSD, na html, laravel, wordpress, react, ghost.</strong>
-               </p><p>
-Poprawiam, naprawiam, ratuje systemy i strony od "zhackowania".
-
-               Doradzam i ucze jak prowadzić swoją działalność w internecie mądrze i oszczędnie.  </p>
-           </div>
-           <div class="col-6">
-               <div class="flexrow" style="padding-top: 2em;">
-                   <img src="assets/images/skills.png" alt="Projketowanie stron www">
-
-               </div>
-               <div class="flexrow" style="padding-top: 2em;">
-                   <p><img src="assets/images/spaceghost.png" alt="Projketowanie stron www" style="float: left; padding-right: 2em;"> Łukasz Celitan<br>
-                       Dev for hire, spaceout.pl</p>
-               </div>
-           </div>
-       </div>
-   </section>
-       <div class="break"></div>
-       <section id="website">
-           <div class="row">
-               <div class="col-12">
-                   <div class="webdesign">webdesign</div>
-               </div>
-           </div>
-           <div class="row">
-               <div class="col-3">
-                   <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M23 11.01L18 11c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5c.55 0 1-.45 1-1v-9c0-.55-.45-.99-1-.99zM23 20h-5v-7h5v7zM20 2H2C.89 2 0 2.89 0 4v12c0 1.1.89 2 2 2h7v2H7v2h8v-2h-2v-2h2v-2H2V4h18v5h2V4c0-1.11-.9-2-2-2zm-8.03 7L11 6l-.97 3H7l2.47 1.76-.94 2.91 2.47-1.8 2.47 1.8-.94-2.91L15 9h-3.03z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>RWD / Mobile Ready<span class="notkatext">Czy wiesz że ponad 50% procent zapytań google pochodzi z urządzeń mobilnych, warto zadbać aby pierwszy kontakt z twoją stroną internetową robił dobre wrażenie, szanse powrotu użytkownika są według mnie bardzo znikome</span></p>
-                                                  </div>
-                   </div>
-                   <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Bezpieczeństwo<span class="notkatext">Klucz SSL i dobre zabezpieczenie instalacji CMS to podstawa dobrej reputacji w internecie oraz lepszych rankingów w google </span></p>
-                                                  </div>
-                   </div>
-               </div>
-               <div class="col-3">
-                   <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M7.34 6.41L.86 12.9l6.49 6.48 6.49-6.48-6.5-6.49zM3.69 12.9l3.66-3.66L11 12.9l-3.66 3.66-3.65-3.66zm15.67-6.26C17.61 4.88 15.3 4 13 4V.76L8.76 5 13 9.24V6c1.79 0 3.58.68 4.95 2.05 2.73 2.73 2.73 7.17 0 9.9C16.58 19.32 14.79 20 13 20c-.97 0-1.94-.21-2.84-.61l-1.49 1.49C10.02 21.62 11.51 22 13 22c2.3 0 4.61-.88 6.36-2.64 3.52-3.51 3.52-9.21 0-12.72z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>User Interface<span class="notkatext">Użytkownik stron internetowych przedewszytskim szuka potrzebnej mu treści, informacji która jest mu potrzebna. Strony powinno się tworzyć pod jego wymagania. Zadaniem web designera jest dostarczenie tej treści jak najszybciej w jak "najładniejszy" sposób. </span></p>
-                                                  </div>
-                   </div>
-                   <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Funkcjonalność<span class="notkatext">Strona internetowa to więcej niż tylko prezencja czy broszura reklamowa. To narzędzie które może ci pomóc w osiągnięciu zamierzonych celów czy to osobistych czy firmowych. Listy mailingowe, formularze kontaktowe, sprzedaż produktów online; to tylko podstawowe funkcje jakie może spełniać twoja strona internetowa. Możliwośći są własciwe nieograniczone. </span></p>
-                                                  </div>
-                   </div>
-
-               </div>
-               <div class="col-6">
-                   <div class="left" style="margin-top: -1vw">
-                       <p><strong>Osobiście jestem fanem prostoty i minimalizmu, czytelności i przejrzystości treści. Małych aczkolwiek dopracowanych akcentów graficznych.</strong></p><p>W swoich pracach i projektach staram się dobierać zawsze odpowiednie technologie o konkretnych założeniach i zastosowaniach.<br>
-                       Przygotowanie projketu zawsze zaczynam od ustalenia przedewszytskim funkcji jakie ma spelnic serwis lub aplikacja.
-Odpowiednie określenie rozmiaru i założen projektu pozwala na własciwe dobranie najlepszych rozwiązań systemowych.
-<p><strong>
-Wszytskie strony projektuje w RWD (responsive layout design), co oznacza że strona dopasowuje się do wielkości ekranu: telefon, tablet, komputer. </strong><br>
-
-Wedle życzenia podłaczam pod aplikacje webowe CMS (content managment system); laravel, wordpress, ghost.js. </p>
-                   </div>               </div>
-           </div>
-           <div class="row" style="z-index: 1;">
-               <div class="col-3">
-                   <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Analityczny Design ?<span class="notkatext">Czy strona internetowa może być idealna od samego początku ? </span></p>
-                                                  </div>
-                   </div>
-               </div>
-               <div class="col-9" style="z-index: 1;">
-                   <p style="z-index: 1;"><strong>Myślę że podstawowy bład jaki większość ludzi popełnia, to założenie że po wdrążeniu strony czy aplikacji webowej, praca Web Designera jest skończona. </strong>Po zakończeniu początkowych prac przychodzi czas na weryfikację założeń i strategii strony internetowej. Z pomocą przychodzą nam narzędzia analityczne Google Analytics i Google Tag Manager, które dokładnie pokazują jak zachowuje się użytkownik na stronie i jakie są realne efekty naszej wspólnej pracy.</p>
-                   <p>Opierająć się na tych danych możemy wrócić do naszej strony internetowej i zostosować odpowiednie zmiany które pomogą nam zrealizować wcześniej założone cele.
-               </div>
-           </div>
-       </section>
-
-          <portfolio>
-            <div id="portfolio">
-              <div class="row">
-                  <div class="portfolio">portfolio</div>
-              </div>
-
-<div id="slider-k">
-    <div class="frame-k">
-        <a  href="https://simuli.pl" target="_blank" rel="noopener">><img src="assets/images/simuli.jpg" alt="Projketowanie Stron WWW" /></a>
-    </div>
-    <div  class="frame-k">
-        <a class="portlink" href="https://flotowetrendy.pl" target="_blank" rel="noopener">><img src="assets/images/flotowetrendy.jpg" alt="Projketowanie stron www" /></a>
-    </div>
-    <div  class="frame-k">
-        <a href="http://hannadanilowicz.pl" target="_blank" rel="noopener">><img src="assets/images/hania.jpg" alt="Projketowanie stron www" /></a>
-    </div>
-    <div class="frame-k">
-       <a class="portlink" href="http://wolnemiasto.org" target="_blank" rel="noopener"><img src="assets/images/wolnemiasto.jpg" alt="Projketowanie Stron WWW" /></a>
-    </div>
-              </div>
-             <div class="mobileportfolio">
-                 <button id="myBtn">Otwórz</button>
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>PORTFOLIO</h2>
-    </div>
-    <div class="modal-body">
-      <a class="portlink" href="https://simuli.pl" target="_blank" rel="noopener"><img src="assets/images/simuli.jpg" alt="Projketowanie Stron WWW" /></a>
-         <a class="portlink" href="https://flotowetrendy.pl" target="_blank" rel="noopener"><img src="assets/images/flotowetrendy.jpg" alt="" /></a>
-               <a class="portlink" href="http://hannadanilowicz.pl" target="_blank" rel="noopener"><img src="assets/images/hania.jpg" alt="" /></a>
-                  <a class="portlink" href="http://wolnemiasto.org" target="_blank" rel="noopener"><img src="assets/images/wolnemiasto.jpg" alt="Projketowanie Stron WWW" /></a>
-                                    </div>
-    <div class="modal-footer">
-      <h3>spaceout.pl</h3>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-          </portfolio>
-          <section id="oferta">
-              <div class="row">
-                  <div class="col-12">
-                      <div class="left">
-                          <div class="oferta">oferta+</div>
-                      </div>
-                  </div>
-              </div>
-                  <div class="row">
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-<svg fill="#000000" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Doradzam lub zapewniam serwer i odpowiednie środowisko instalacji <span class="notkatext">Dobry serwer i infrastuktura to podstawa szybko działającej strony internetowej czy aplikacji webowej.</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Rejestracja domen,
-kluczy SSL, maili, list malingowych<span class="notkatext">doradzam także gdzie kupować domene, jaka ofertę wybrać, jaka koncówka adresu www jest najlepsza dla twoich potrzeb. </span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M9 16h6.5c1.38 0 2.5-1.12 2.5-2.5S16.88 11 15.5 11h-.05c-.24-1.69-1.69-3-3.45-3-1.4 0-2.6.83-3.16 2.02h-.16C7.17 10.18 6 11.45 6 13c0 1.66 1.34 3 3 3zM21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Web Development<span class="notkatext">Korzystam tylko z najlepszych i sprawdzonych źródeł Open Source, Daje 1 rok gwarancji na strone / instalacje.</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                       <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M21 3H3c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h18c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 16.02H3V4.98h18v14.04zM10 12H8l4-4 4 4h-2v4h-4v-4z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Pozycjonowanie SEO<span class="notkatext">Podczas budowy strony warto zadać o pozycjonwanie już od samego początku. Strona jest budowana i zoptymalizowana pod wcześniej wybrane słowa kluczowe.</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                  </div>
-                                   <div class="row">
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Video-dokumentacja
-obsługi systemów CMS <span class="notkatext">Oprócz szkolenia z korzystania z systemu CMS, dostarczam dokumentacje wideo; jak dodawać wpisy, dodawanie zdjęć, aktualizacja galerii itp.  </span></p>
-                                                  </div>
-                   </div>
-                      </div>
-
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-                      <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M14 5c0-1.1-.9-2-2-2h-1V2c0-.55-.45-1-1-1H6c-.55 0-1 .45-1 1v1H4c-1.1 0-2 .9-2 2v15c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2h8V5h-8zm-2 13h-2v-2h2v2zm0-9h-2V7h2v2zm4 9h-2v-2h2v2zm0-9h-2V7h2v2zm4 9h-2v-2h2v2zm0-9h-2V7h2v2z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Zdjęcia i grafiki<span class="notkatext">Na życzenie robię także zdjęcia prdouktów lokali, tworzę oryginalne grafiki i akcenty do stron internetowych.</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                      <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-                         <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M15.9 5c-.17 0-.32.09-.41.23l-.07.15-5.18 11.65c-.16.29-.26.61-.26.96 0 1.11.9 2.01 2.01 2.01.96 0 1.77-.68 1.96-1.59l.01-.03L16.4 5.5c0-.28-.22-.5-.5-.5zM1 9l2 2c2.88-2.88 6.79-4.08 10.53-3.62l1.19-2.68C9.89 3.84 4.74 5.27 1 9zm20 2l2-2c-1.64-1.64-3.55-2.82-5.59-3.57l-.53 2.82c1.5.62 2.9 1.53 4.12 2.75zm-4 4l2-2c-.8-.8-1.7-1.42-2.66-1.89l-.55 2.92c.42.27.83.59 1.21.97zM5 13l2 2c1.13-1.13 2.56-1.79 4.03-2l1.28-2.88c-2.63-.08-5.3.87-7.31 2.88z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Systemy analityczne
-<span class="notkatext">Google Analytics, Google Tag Manager, Facebook Pixel</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                       <div class="col-3">
-                           <div class="notka">
-                       <div class="notka_img">
-<svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
-</svg>
-                                                  </div>
-                                                  <div class="notka_opis">
-                                                      <p>Szybko, sprawnie oraz w rozsądnych cenach<span class="notkatext">Każdy projekt wyceniam osobno, w zależnośi od wielkości projektu.</span></p>
-                                                  </div>
-                   </div>
-                      </div>
-                         </div>
-          </section>
- <div class="break"></div>
-      <section id="blog">
-          <div class="row">
-              <div class="col-6">
-                 <div class="cta_button">blog.spaceout.pl</div><p>Sprawdź mojego bloga, trochę nowości, porad i artykułow na tematy związane z
-budowaniem stron i aplikacji online.
-</p></div>
-                  <div class="col-6">
-                                      <ul class="tags">
-                          <li>html</li>
-                          <li>javascript</li>
-                          <li>css</li>
-                          <li>php</li>
-                          <li>wordpress</li>
-                          <li>react</li>
-                          <li>ghost.js</li>
-                          <li>node.js</li>
-                          <li>graphql</li>
-                          <li>linux</li>
-                          <li>centos</li>
-                          <li>developmment</li>
-                          <li>webdesign</li>
-                          <li>inspirations</li>
-                          <li>material design</li>
-                          <li>apps</li>
-                          <li>laravel</li>
-                          <li>divi</li>
-                          <li>mySQl</li>
-                          <li>SSH</li>
-                      </ul>
-                  </div>
-
-                 <div class="col-12"><div class="center">
-                   <div id="blog-posts" class="blogapi">
-                     <h2>Najnowsze Posty</h2>
-                   </div>
-
-                 </div></div>
-          <div class="col-12">
-            <div class="svg-wrapper">
-  <svg class"svv" height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-    <rect class="shape" height="60" width="320" />
-  </svg>
-   <div class="text">  <a href="https://blog.spaceout.pl/" target="_blank" rel="noopener">Zobacz Więcej</a></div>
-</div>
-</div>
-          </div>
-          </div>
-    </section>
-          <kontakt >
-<div id="kontakt">
-              <div class="row">
-                  <div class="col-6">
-                     <div class="contact">
-    <div class="spaceoutkontakt"><p><img src="assets/images/napisz.png" alt="Projketowanie stron www"></p><p><a href="mailto:info@spaceout.pl">info@spaceout.pl</a></p></div>
-                  </div></div>
-                  <div class="col-6">
-                     <div class="contact">
-    <div id="instafeed"></div>
-                  </div></div>
-                  <div class="col-12"><div class="left"><p class="copy">Spaceout.pl Copyright 2017</p></div>
-                  </div>
-              </div>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNG9M8N" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div class="container">
+        <header>
+            <div class="flexrow_title">
+                <div class="col-2" style="z-index: 2">
+                    <img class="logoimg" src="/assets/images/logo.png" alt="SpaceOut Projektowanie Stron Internetowych">
+                </div>
+                <div class="col-10" style="z-index: 1">
+                    <div class="spaceout">spaceout</div>
+                </div>
             </div>
+            <div class="flexrow_title">
+                <div class="col-12">
+                    <div class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
+                            <a class="sociallink" href="https://github.com/MassivDash" target="_blank">
+                                <image x="0px" y="0px" width="50px" height="50px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhCgsXCh/i862tAAACkElEQVRYw+1Y0XmjMAz+YQJv0IzgDeIR2KBscNmgdAJng/QmoBuEThA2SDsBbKB7CLaFMRhM+nbixZ8s6Zct25LIECUSUDhCQkIwdo8WX2jRZH3cxjJAQTXFqKYiHaCkexTA0J3K7QBqA4ADUmFrWTAGbzh5zG80+EHDOAovUDh4cme8r4gRHeg28q8jTXJWWpKmbiR/IxGDkCOVjqqoCkhQ5WnJ9RB1HIAB1atgSDCIbvtpoXKkH3KQBIvF8oLX7UQoNqT3QkxgtD+pngExgVHjKXf1yoFzpY6udFoTfCqops7EgUp3PbmQY9cDR/BjPFrx4xMMwDlYDLzad5mvw54Jtn2PB0PTdfKM3OjicSvrotmyu/PFEwLoRCnk9Cu+uhzA6zDT42wX1+8JPoCztfAK5CQw7CQ+2NP2vQ8j6/ExDAsSOZSd+cuk2iTbXMtZUzmk8T3jIpckEO1OXdba3ZA5jsOwcbKk7BZuo8MoDxmLR7eSHzb9lgQBAH/Y2FiUmD4B7CKmkLNj71oe8EZiD6kpK99sJIH+g2wE6YeRsrx2l8XGjozFPrcmX8xc1u+CcbrGYutAFBNs1lgL0id7ZI3FL55NpJmlQ/JVLK0NyTIKu9+sumBJZwtdmQVtuQIsI48KskC6jRGrtFgCflQNofQLkKBLKoSffh+se2gtABVehT9HXgsUKCRCJRFTkFTR1WsPWBRCjUWwJAoVd56aCKxpptacKe7iZSo7K6N1BCTny9RYwT27XXIBQk89WGwdZkOuZiFucx1Kx2DKrSArmqCJJ6N2Lgayup0LwNjGdAlkY2M6ic1DRbPHzqdTQos9wGhKJb2+Y37yb48loN/+gWOBnvIrKlsBJKAgcUz/qfYP9hf34mfHXkYAAAAASUVORK5CYII="
+                                />
+                            </a>
+                        </svg>
+                        <a class="sociallink2" href="https://www.instagram.com/spaceout.pl/" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51px" height="50px">
+                                <image x="0px" y="0px" width="51px" height="50px" xlink:href="data:img/png;base64,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"
+                                />
+                            </svg>
+                        </a>
+                        <a class="sociallink3" href="https://facebook.com/spaceoutpl/" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
+                                <image x="0px" y="0px" width="50px" height="50px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhCgsXCB6nwv+5AAADGUlEQVRYw72Y7ZmqSBCFX3g2AEJgMyCDYSO4ZLBkcM1g3QgMwd0I9EaAEwFkoBlgBu/+oEUYEdGdmfrjQ3/UqTrddp/qiIdmQs4bGRnJoPlMQ8M7h+j8yEP0AKDgT4r+s+HiMCHrW/f8G+0fBzsNUHpUtXVraXrTn1q6tVX1aPk8QB4AKgswsXBjFdo6p5UbCxOwsApt+XKAxE0AyMHSnY6cD8F0ZwnmAWhjsgQitVZbyw+EFWPCTC3GZFnaqvUtsR8hsstAM+srYTMzLmTVZn2A2WOILbgKExexbB4CWoHbWRjTHmKr6nrxMgKudTC7nSTNxHo0KHsGouehheChntgCbtT6dYgQaApmYK1ublnV1tTV6xDB00pdBerzcddRLc1U5yDM3YVt21kxQZpqZqkehx2lWoUk1zMQZXBdWVndG+06EF/p4LDxqOaWXedMFtq6Gn1PhmStluaDXCxCHscbFsdTd6PI5kCCe6ueUHdqcaFsBqSPy3KOLrhQZaHuABO1vUDNQKTXIOYWfsDODmzVpPvcXqAerMgVZDZnuLh3qxYxb8A7ObCfgxjchACJufns/2kP5LwDbx17qZs5ssJxOUXX6u6cUt10JP9GBtHJDGjuRpXQ3e9/h+9/SIGUdCQtxnYAsugkZFy37wxZ66nN7Xq8pW/6u21caxxaUk68YqfZvhQ4Q7xoOEB1XYHuUuavpQHELLEm/P7o8w5uosOS6VeQ9P6gaB9F/DFqOkRRFEW/z/ruPcZ0e+c0B/KideucQMyZDDjBQynzlJl2Xsk4xzRgSgPkn5pHBjSmQBMH993f/zPtB5fjqomD+wMM1PtnWA4cwsm4+Kh/6hQeH/VxdGZPYsEv4Oen5fET+GVBwj46s/T6fSaTiet3mZB4CuRWSCyTREGrdGJoFuSOJFoi7kxGom5zF+KeuPsgU1e8bKH4mJapA8GdgemiouwexPaO4B6WDmD7culwLT7qyUC/oQj6EMtXlXMDmK8sTANp3cByUYnd9T9XYsO3PBb0LB+vZH3Bs0cP9GkPON/yFPUApFuj//uo9h8cmcDWwh0M/AAAAABJRU5ErkJggg=="
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flexrow_menu">
+                <div class="navigation">
+                    <ul>
+                        <li class="nav">
+                            <a href="#website">webdesign</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#oferta">oferta+</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#blog">blog</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#kontakt">kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="break"></div>
+        <section>
+            <div class="row">
+                <div class="col-6">
+                    <h2>Witam wszytskich.
+                        <br> Zajmuje się projektowaniem
+                        <br>stron www oraz aplikacji mobilnych.</h2>
+
+                    <p>
+                        Buduje strony internetowe już od 15 lat, zajmuje się także administracją i konfiguracją serwerów.
+                        <br> Projektuje strony od podstaw łacznie z tworzeniem logotypów, grafik, bannerow,
+                        <strong>przekładam projekty PSD, na html, laravel, wordpress, react, ghost.</strong>
+                    </p>
+                    <p>
+                        Poprawiam, naprawiam, ratuje systemy i strony od "zhackowania". Doradzam i ucze jak prowadzić swoją działalność w internecie
+                        mądrze i oszczędnie. </p>
+                </div>
+                <div class="col-6">
+                    <div class="flexrow" style="padding-top: 2em;">
+                        <img src="assets/images/skills.png" alt="Projketowanie stron www">
+
+                    </div>
+                    <div class="flexrow" style="padding-top: 2em;">
+                        <p>
+                            <img src="assets/images/spaceghost.png" alt="Projketowanie stron www" style="float: left; padding-right: 2em;"> Łukasz Celitan
+                            <br> Dev for hire, spaceout.pl</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="break"></div>
+        <section id="website">
+            <div class="row">
+                <div class="col-12">
+                    <div class="webdesign">webdesign</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path d="M23 11.01L18 11c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5c.55 0 1-.45 1-1v-9c0-.55-.45-.99-1-.99zM23 20h-5v-7h5v7zM20 2H2C.89 2 0 2.89 0 4v12c0 1.1.89 2 2 2h7v2H7v2h8v-2h-2v-2h2v-2H2V4h18v5h2V4c0-1.11-.9-2-2-2zm-8.03 7L11 6l-.97 3H7l2.47 1.76-.94 2.91 2.47-1.8 2.47 1.8-.94-2.91L15 9h-3.03z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>RWD / Mobile Ready
+                                <span class="notkatext">Czy wiesz że ponad 50% procent zapytań google pochodzi z urządzeń mobilnych, warto zadbać
+                                    aby pierwszy kontakt z twoją stroną internetową robił dobre wrażenie, szanse powrotu
+                                    użytkownika są według mnie bardzo znikome</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"
+                                />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Bezpieczeństwo
+                                <span class="notkatext">Klucz SSL i dobre zabezpieczenie instalacji CMS to podstawa dobrej reputacji w internecie
+                                    oraz lepszych rankingów w google </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.34 6.41L.86 12.9l6.49 6.48 6.49-6.48-6.5-6.49zM3.69 12.9l3.66-3.66L11 12.9l-3.66 3.66-3.65-3.66zm15.67-6.26C17.61 4.88 15.3 4 13 4V.76L8.76 5 13 9.24V6c1.79 0 3.58.68 4.95 2.05 2.73 2.73 2.73 7.17 0 9.9C16.58 19.32 14.79 20 13 20c-.97 0-1.94-.21-2.84-.61l-1.49 1.49C10.02 21.62 11.51 22 13 22c2.3 0 4.61-.88 6.36-2.64 3.52-3.51 3.52-9.21 0-12.72z"
+                                />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>User Interface
+                                <span class="notkatext">Użytkownik stron internetowych przedewszytskim szuka potrzebnej mu treści, informacji która
+                                    jest mu potrzebna. Strony powinno się tworzyć pod jego wymagania. Zadaniem web designera
+                                    jest dostarczenie tej treści jak najszybciej w jak "najładniejszy" sposób. </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+                                />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Funkcjonalność
+                                <span class="notkatext">Strona internetowa to więcej niż tylko prezencja czy broszura reklamowa. To narzędzie które
+                                    może ci pomóc w osiągnięciu zamierzonych celów czy to osobistych czy firmowych. Listy
+                                    mailingowe, formularze kontaktowe, sprzedaż produktów online; to tylko podstawowe funkcje
+                                    jakie może spełniać twoja strona internetowa. Możliwośći są własciwe nieograniczone.
+                                    </span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="left" style="margin-top: -1vw">
+                        <p>
+                            <strong>Osobiście jestem fanem prostoty i minimalizmu, czytelności i przejrzystości treści. Małych aczkolwiek
+                                dopracowanych akcentów graficznych.</strong>
+                        </p>
+                        <p>W swoich pracach i projektach staram się dobierać zawsze odpowiednie technologie o konkretnych założeniach
+                            i zastosowaniach.
+                            <br> Przygotowanie projketu zawsze zaczynam od ustalenia przedewszytskim funkcji jakie ma spelnic
+                            serwis lub aplikacja. Odpowiednie określenie rozmiaru i założen projektu pozwala na własciwe
+                            dobranie najlepszych rozwiązań systemowych.
+                            <p>
+                                <strong>
+                                    Wszytskie strony projektuje w RWD (responsive layout design), co oznacza że strona dopasowuje się do wielkości ekranu: telefon,
+                                    tablet, komputer. </strong>
+                                <br> Wedle życzenia podłaczam pod aplikacje webowe CMS (content managment system); laravel, wordpress,
+                                ghost.js. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="z-index: 1;">
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"
+                                />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Analityczny Design ?
+                                <span class="notkatext">Czy strona internetowa może być idealna od samego początku ? </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9" style="z-index: 1;">
+                    <p style="z-index: 1;">
+                        <strong>Myślę że podstawowy bład jaki większość ludzi popełnia, to założenie że po wdrążeniu strony czy aplikacji
+                            webowej, praca Web Designera jest skończona. </strong>Po zakończeniu początkowych prac przychodzi
+                        czas na weryfikację założeń i strategii strony internetowej. Z pomocą przychodzą nam narzędzia analityczne
+                        Google Analytics i Google Tag Manager, które dokładnie pokazują jak zachowuje się użytkownik na stronie
+                        i jakie są realne efekty naszej wspólnej pracy.</p>
+                    <p>Opierająć się na tych danych możemy wrócić do naszej strony internetowej i zostosować odpowiednie zmiany
+                        które pomogą nam zrealizować wcześniej założone cele.
+                </div>
+            </div>
+        </section>
+
+        <portfolio>
+            <div id="portfolio">
+                <div class="row">
+                    <div class="portfolio">portfolio</div>
+                </div>
+
+                <div id="slider-k">
+                    <div class="frame-k">
+                        <a href="https://simuli.pl" target="_blank" rel="noopener">>
+                            <img src="./assets/images/simuli.jpg" alt="Projketowanie Stron WWW" />
+                        </a>
+                    </div>
+                    <div class="frame-k">
+                        <a class="portlink" href="https://flotowetrendy.pl" target="_blank" rel="noopener">>
+                            <img src="assets/images/flotowetrendy.jpg" alt="Projketowanie stron www" />
+                        </a>
+                    </div>
+                    <div class="frame-k">
+                        <a href="http://hannadanilowicz.pl" target="_blank" rel="noopener">>
+                            <img src="./assets/images/hania.jpg" alt="Projketowanie stron www" />
+                        </a>
+                    </div>
+                    <div class="frame-k">
+                        <a class="portlink" href="http://wolnemiasto.org" target="_blank" rel="noopener">
+                            <img src="./assets/images/wolnemiasto.jpg" alt="Projketowanie Stron WWW" />
+                        </a>
+                    </div>
+                </div>
+                <div class="mobileportfolio">
+                    <button id="myBtn">Otwórz</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>PORTFOLIO</h2>
+                            </div>
+                            <div class="modal-body">
+                                <a class="portlink" href="https://simuli.pl" target="_blank" rel="noopener">
+                                    <img src="assets/images/simuli.jpg" alt="Projketowanie Stron WWW" />
+                                </a>
+                                <a class="portlink" href="https://flotowetrendy.pl" target="_blank" rel="noopener">
+                                    <img src="assets/images/flotowetrendy.jpg" alt="" />
+                                </a>
+                                <a class="portlink" href="http://hannadanilowicz.pl" target="_blank" rel="noopener">
+                                    <img src="assets/images/hania.jpg" alt="" />
+                                </a>
+                                <a class="portlink" href="http://wolnemiasto.org" target="_blank" rel="noopener">
+                                    <img src="assets/images/wolnemiasto.jpg" alt="Projketowanie Stron WWW" />
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <h3>spaceout.pl</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </portfolio>
+        <section id="oferta">
+            <div class="row">
+                <div class="col-12">
+                    <div class="left">
+                        <div class="oferta">oferta+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+                            <svg fill="#000000" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Doradzam lub zapewniam serwer i odpowiednie środowisko instalacji
+                                <span class="notkatext">Dobry serwer i infrastuktura to podstawa szybko działającej strony internetowej czy aplikacji
+                                    webowej.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Rejestracja domen, kluczy SSL, maili, list malingowych
+                                <span class="notkatext">doradzam także gdzie kupować domene, jaka ofertę wybrać, jaka koncówka adresu www jest najlepsza
+                                    dla twoich potrzeb. </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16h6.5c1.38 0 2.5-1.12 2.5-2.5S16.88 11 15.5 11h-.05c-.24-1.69-1.69-3-3.45-3-1.4 0-2.6.83-3.16 2.02h-.16C7.17 10.18 6 11.45 6 13c0 1.66 1.34 3 3 3zM21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Web Development
+                                <span class="notkatext">Korzystam tylko z najlepszych i sprawdzonych źródeł Open Source, Daje 1 rok gwarancji na
+                                    strone / instalacje.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path d="M21 3H3c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h18c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 16.02H3V4.98h18v14.04zM10 12H8l4-4 4 4h-2v4h-4v-4z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Pozycjonowanie SEO
+                                <span class="notkatext">Podczas budowy strony warto zadać o pozycjonwanie już od samego początku. Strona jest budowana
+                                    i zoptymalizowana pod wcześniej wybrane słowa kluczowe.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Video-dokumentacja obsługi systemów CMS
+                                <span class="notkatext">Oprócz szkolenia z korzystania z systemu CMS, dostarczam dokumentacje wideo; jak dodawać
+                                    wpisy, dodawanie zdjęć, aktualizacja galerii itp. </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M14 5c0-1.1-.9-2-2-2h-1V2c0-.55-.45-1-1-1H6c-.55 0-1 .45-1 1v1H4c-1.1 0-2 .9-2 2v15c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2h8V5h-8zm-2 13h-2v-2h2v2zm0-9h-2V7h2v2zm4 9h-2v-2h2v2zm0-9h-2V7h2v2zm4 9h-2v-2h2v2zm0-9h-2V7h2v2z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Zdjęcia i grafiki
+                                <span class="notkatext">Na życzenie robię także zdjęcia prdouktów lokali, tworzę oryginalne grafiki i akcenty do
+                                    stron internetowych.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M15.9 5c-.17 0-.32.09-.41.23l-.07.15-5.18 11.65c-.16.29-.26.61-.26.96 0 1.11.9 2.01 2.01 2.01.96 0 1.77-.68 1.96-1.59l.01-.03L16.4 5.5c0-.28-.22-.5-.5-.5zM1 9l2 2c2.88-2.88 6.79-4.08 10.53-3.62l1.19-2.68C9.89 3.84 4.74 5.27 1 9zm20 2l2-2c-1.64-1.64-3.55-2.82-5.59-3.57l-.53 2.82c1.5.62 2.9 1.53 4.12 2.75zm-4 4l2-2c-.8-.8-1.7-1.42-2.66-1.89l-.55 2.92c.42.27.83.59 1.21.97zM5 13l2 2c1.13-1.13 2.56-1.79 4.03-2l1.28-2.88c-2.63-.08-5.3.87-7.31 2.88z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Systemy analityczne
+                                <span class="notkatext">Google Analytics, Google Tag Manager, Facebook Pixel</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="notka">
+                        <div class="notka_img">
+                            <svg fill="#000000" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                                />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                            </svg>
+                        </div>
+                        <div class="notka_opis">
+                            <p>Szybko, sprawnie oraz w rozsądnych cenach
+                                <span class="notkatext">Każdy projekt wyceniam osobno, w zależnośi od wielkości projektu.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="break"></div>
+        <section id="blog">
+            <div class="row">
+                <div class="col-6">
+                    <div class="cta_button">blog.spaceout.pl</div>
+                    <p>Sprawdź mojego bloga, trochę nowości, porad i artykułow na tematy związane z budowaniem stron i aplikacji
+                        online.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <ul class="tags">
+                        <li>html</li>
+                        <li>javascript</li>
+                        <li>css</li>
+                        <li>php</li>
+                        <li>wordpress</li>
+                        <li>react</li>
+                        <li>ghost.js</li>
+                        <li>node.js</li>
+                        <li>graphql</li>
+                        <li>linux</li>
+                        <li>centos</li>
+                        <li>developmment</li>
+                        <li>webdesign</li>
+                        <li>inspirations</li>
+                        <li>material design</li>
+                        <li>apps</li>
+                        <li>laravel</li>
+                        <li>divi</li>
+                        <li>mySQl</li>
+                        <li>SSH</li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <div class="center">
+                        <div id="blog-posts" class="blogapi">
+                            <h2>Najnowsze Posty</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="svg-wrapper">
+                        <svg class "svv" height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="shape" height="60" width="320" />
+                        </svg>
+                        <div class="text">
+                            <a href="https://blog.spaceout.pl/" target="_blank" rel="noopener">Zobacz Więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <kontakt>
+        <div id="kontakt">
+            <div class="row">
+                <div class="col-6">
+                    <div class="contact">
+                        <div class="spaceoutkontakt">
+                            <p>
+                                <img src="assets/images/napisz.png" alt="Projketowanie stron www">
+                            </p>
+                            <p>
+                                <a href="mailto:info@spaceout.pl">info@spaceout.pl</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="contact">
+                        <div id="instafeed"></div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="left">
+                        <p class="copy">Spaceout.pl Copyright 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-          </kontakt>
+    </kontakt>
     <div class="float-nav2" id="float">
-  <a href="#" class="menu-btn">
-    <ul>
-      <li class="line"></li>
-      <li class="line"></li>
-      <li class="line"></li>
-    </ul>
-    <div class="menu-txt">menu</div>
-  </a>
+        <a href="#" class="menu-btn">
+            <ul>
+                <li class="line"></li>
+                <li class="line"></li>
+                <li class="line"></li>
+            </ul>
+            <div class="menu-txt">menu</div>
+        </a>
+    </div>
+    <div class="main-nav2" id="float2">
+        <ul>
+            <li>
+                <a href="#website">webdesign</a>
+            </li>
+            <li>
+                <a href="#portfolio">portfolio</a>
+            </li>
+            <li>
+                <a href="#oferta">ofreta+</a>
+            </li>
+            <li>
+                <a href="#blog">blog</a>
+            </li>
+            <li>
+                <a href="#kontakt">kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <div class="float-nav">
+        <a href="#" class="menu-btn">
+            <ul>
+                <li class="line"></li>
+                <li class="line"></li>
+                <li class="line"></li>
+            </ul>
+            <div class="menu-txt">menu</div>
+        </a>
+    </div>
+    <div class="main-nav">
+        <ul>
+            <li>
+                <a href="#website">webdesign</a>
+            </li>
+            <li>
+                <a href="#portfolio">portfolio</a>
+            </li>
+            <li>
+                <a href="#oferta">ofreta+</a>
+            </li>
+            <li>
+                <a href="#blog">blog</a>
+            </li>
+            <li>
+                <a href="#kontakt">kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <div class="fb-customerchat"
+ page_id="838253326277994"
+ minimized="true">
 </div>
-<div class="main-nav2" id="float2">
-  <ul>
-    <li><a href="#website">webdesign</a></li>
-    <li><a href="#portfolio">portfolio</a></li>
-    <li><a href="#oferta">ofreta+</a></li>
-    <li><a href="#blog">blog</a></li>
-    <li><a href="#kontakt">kontakt</a></li>
-  </ul>
-</div>
-    <div class="float-nav" >
-  <a href="#" class="menu-btn">
-    <ul>
-      <li class="line"></li>
-      <li class="line"></li>
-      <li class="line"></li>
-    </ul>
-    <div class="menu-txt">menu</div>
-  </a>
-</div>
-<div class="main-nav" >
-  <ul>
-    <li><a href="#website">webdesign</a></li>
-    <li><a href="#portfolio">portfolio</a></li>
-    <li><a href="#oferta">ofreta+</a></li>
-    <li><a href="#blog">blog</a></li>
-    <li><a href="#kontakt">kontakt</a></li>
-  </ul>
-</div>
-<script type="text/javascript" src="https://blog.spaceout.pl/public/ghost-sdk.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '912333495590130',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+(function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    <script type="text/javascript" src="https://blog.spaceout.pl/public/ghost-sdk.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<script src="/assets/js/global.js"></script>
-<script src="/assets/js/blog.js"></script>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/blog.js"></script>
 
 
 
-<link rel="stylesheet" href="/assets/css/style.min.css">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
 </body>
+
 </html>

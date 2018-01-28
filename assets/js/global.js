@@ -74,3 +74,5 @@ var TxtRotate = function(el, toRotate, period) {
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NNG9M8N');
+
+        

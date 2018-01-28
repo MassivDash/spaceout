@@ -7,11 +7,11 @@ function onSuccess(data) {
 var $result = $('#blog-posts');
 $.each(data.posts, function (i, post) {
 $result.append( '<figure class="effect-spaceout">' +
-'<img src="https://blog.spaceout.pl/' + post.feature_image + '">' +
+'<img alt="Projektowanie stron www" src="https://blog.spaceout.pl/' + post.feature_image + '">' +
 '<figcaption>' +
   '<h2>' + post.title + '</h2>' +
     '<p> Czytaj więcej </p>'  +
-  '<a href="https://blog.spaceout.pl/' + post.url + '"> Zobacz Wpis </a></div></figure>'
+  '<a rel="follow" href="https://blog.spaceout.pl/' + post.url + '"> Zobacz Wpis </a></div></figure>'
 );
 });
 }

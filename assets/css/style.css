@@ -128,7 +128,7 @@ section:hover {
     margin-bottom: 1vw;
     border-radius: 5px;
     box-shadow: 8px 14px 38px rgba(39,44,49,.26),1px 3px 8px rgba(39,44,49,.3);
-    display: inline-blogapi
+    display: inline-block;
 }
 
     .notka:hover {
@@ -762,7 +762,7 @@ svg {
 @media screen and (min-width:986px) {
     .blogapi figure {
         position: relative;
-        float: left;
+        display: inline-block;
         overflow: hidden;
         margin: 10px 1%;
         min-width: 320px;
